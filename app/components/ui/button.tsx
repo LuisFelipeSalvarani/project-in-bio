@@ -6,8 +6,7 @@ interface ButtonProps extends ComponentProps<'button'> {
 }
 
 export function Button({
-  children,
-  variants,
+  variants = 'primary',
   className,
   ...props
 }: ButtonProps) {
